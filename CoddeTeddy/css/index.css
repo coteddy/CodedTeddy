@@ -1,0 +1,54 @@
+body {
+  background-color: #ddf;
+}
+
+#dyntext {
+  width: 400px;
+}
+
+.monkeythink {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 286px;
+  background-image: url("../img/ChimpThinking.png");
+}
+
+.computer .jtextfill {
+    position: absolute;
+    top: 170px;
+    left: 132px;
+    width: 184px;
+    height: 83px;
+    /* background-color: #fff; */
+    text-align: center;
+    color:#FFC600;
+}
+
+.monkeythink .jtextfill span {
+  font-family: "Happy Monkey";
+}
+
+.computer {
+    position: relative;
+    width: 450px;
+    height: 424px;
+    background-image: url(../img/towel.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #f2f223bf;
+}
+
+
+
+.computer .jtextfill span {
+  font-family: "Roboto";
+  
+}
+
+.computerglare {
+  position: absolute;
+  width: 450px;
+  height: 424px;
+  background-image: url("../img/ComputerGlare.png");
+}
